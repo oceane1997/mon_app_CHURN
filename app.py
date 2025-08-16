@@ -102,4 +102,11 @@ if prediction[0] == 1:
 else:
     st.success(f"✅ Ce client ne présente pas de risque élevé de churn. Probabilité : {proba:.2%}")
 
-#code init
+
+st.markdown("---")
+st.subheader("🔗 Liens utiles")
+
+st.markdown("""
+- 💻 [Voir le code source sur GitHub](https://github.com/oceane1997/mon_app_CHURN.git)
+- 📓 [Notebook Google Colab d'entraînement du modèle](https://colab.research.google.com/drive/16FLDUKy38w0e3_HtZIr0JO_23Mz6-5Aa?usp=sharing)
+""")
