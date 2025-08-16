@@ -101,3 +101,5 @@ if prediction[0] == 1:
     st.error(f"⚠️ Ce client risque de se désabonner. Probabilité : {proba:.2%}")
 else:
     st.success(f"✅ Ce client ne présente pas de risque élevé de churn. Probabilité : {proba:.2%}")
+
+#code
