@@ -102,4 +102,4 @@ if prediction[0] == 1:
 else:
     st.success(f"✅ Ce client ne présente pas de risque élevé de churn. Probabilité : {proba:.2%}")
 
-#code
+#code init
